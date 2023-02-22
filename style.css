@@ -148,7 +148,7 @@ p{
     margin: 5%;
 }
 body {
-    background-color:slategrey;
+    background-color:black;
 }
 .contenedor {
     grid-template-columns: 1fr 1fr;
