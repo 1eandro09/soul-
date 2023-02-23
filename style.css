@@ -141,6 +141,49 @@ p{
     "caja1 caja2"
     "caja3 caja4"
 }
+
+H2 {
+    color: black;
+    text-align: center;
+    margin:2px ;
+    position: relative;
+    left: 0px ;
+    }
+    form{
+        height: 55%;
+        width: 50%;
+        background-color: #343a40;
+        text-align: center;
+        position: absolute;
+        left: 25%;
+        border-radius: 5px;
+    }
+    .input_form {
+    display: inline-block;
+    width: 75%;
+    height: 15%;
+    margin:  2%;
+    background-color: red;
+    border: whitesmoke;
+    border-radius: 10px;
+    }
+    textarea {
+    text-align: center;
+    background-color: red;
+    border: whitesmoke;
+    border-radius: 5px;
+    width: 97%;
+    height: 36%;
+    margin: 0%;
+        padding: 0%;
+    }
+
+    .mapa {
+        margin-bottom: 2%;
+    margin-top: 60%;
+    margin-left: 26%;
+    }
+    
 }
 
 @media screen and (max-width:480px) {
@@ -161,5 +204,71 @@ body {
 .harley1{
     width: 100vh;
 }
-
+/*formulario*/
+p{
+    color: white;
 }
+.contactof {
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+H2 {
+    color: white;
+    text-align: center;
+    margin:2px ;
+    position: relative;
+    left: 0% ;
+    }
+    form{
+        height: 55%;
+        width: 60%;
+        background-color: #343a40;
+        text-align: center;
+        position: absolute;
+        left: 22%;
+        border-radius: 5px;
+        margin-top: 2%;
+    }
+    .input_form {
+    display: inline-block;
+    width: 75%;
+    height: 15%;
+    margin:  2%;
+    background-color: red;
+    border: whitesmoke;
+    border-radius: 10px;
+    }
+    textarea {
+    text-align: center;
+    background-color: red;
+    border: whitesmoke;
+    border-radius: 5px;
+    width: 97%;
+    height: 36%;
+    margin: 0%;
+        padding: 0%;
+    }
+
+    .mapa {
+    margin-bottom: 2%;
+    margin-top: 95%;
+    margin-left: 25%;
+    }
+    
+    footer{
+        background-color:#212529;
+        padding-right: 20%;
+        padding: 0px;
+        width: 100%;
+        height: 50px;
+        bottom: 0px;
+        position: relative;
+    }
+    .p_footer{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
