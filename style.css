@@ -59,6 +59,10 @@ height: 36%;
 margin: 0%;
     padding: 0%;
 }
+/*contacto*/
+.mapa{
+margin-left: 1%;
+}
 
 /*galeria*/
 .contenedor {
@@ -221,7 +225,7 @@ body {
     "caja2"
     "caja3"
     "caja4";
-    margin-bottom: 75%;
+    margin-bottom: 100%;
 }
 
 .raider1{
@@ -267,7 +271,7 @@ H2 {
         background-color: #343a40;
         text-align: center;
         position: absolute;
-        left: 22%;
+        left: 20%;
         border-radius: 5px;
         margin-top: 2%;
     }
