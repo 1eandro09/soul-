@@ -1,0 +1,80 @@
+.contenedor {
+    border: 2px solid white;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "caja2 caja3 caja1 caja1"
+    "caja2 caja3 caja4 caja4"
+    "caja2 caja3 caja4 caja4"
+    ;
+    .caja {
+        border: 1px solid #212529;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .caja1 {
+        grid-area: caja1;
+        .raider1{
+            width: 100%;
+            height: 70%;
+        }
+    } 
+    .caja2 {
+        grid-area: caja2;
+        .raider2{
+            width: 100%;
+            height: 85%;
+        }
+    }
+    .caja3 {
+        grid-area: caja3;
+        .raider3{
+            width: 98%;
+            height: 90%;
+        }
+    }
+    .caja4 {
+        grid-area: caja4;
+        raider4{
+            width: 100%;
+        }
+    }
+}
+
+.caja {
+    border: 1px solid #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja1 {
+grid-area: caja1;
+
+}
+.caja2 {
+    grid-area: caja2;
+}
+.caja3 {
+    grid-area: caja3;
+}
+.caja4 {
+    grid-area: caja4;
+}
+.raider1{
+    width: 100%;
+    height: 70%;
+}
+.raider2{
+    width: 100%;
+    height: 85%;
+}
+.raider3{
+    width: 98%;
+    height: 90%;
+}
+.raider4{
+    width: 100%;
+}

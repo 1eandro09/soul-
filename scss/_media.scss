@@ -1,0 +1,189 @@
+@media screen and (max-width:768px){
+    .motoprincipal{
+        margin: 10%;
+    }
+    body{
+        background-color: whitesmoke;
+    }
+    h1{
+        color: black;
+    }
+    p{
+        color: black;
+    }
+    
+    .contenedor {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:repeat(3, 1fr);
+        gap: 5px;
+        grid-template-areas: 
+        "caja1 caja2"
+        "caja3 caja4"
+        
+    }
+    .raider1{
+        width: 100%;
+        height: 93%;
+    }
+    .raider2{
+        width: 100%;
+        height: 94%;
+    }
+    .raider3{
+        width: 100%;
+        height: 94%;
+    }
+    .raider4{
+        width: 100%;
+    }
+    
+    H2 {
+        color: black;
+        text-align: center;
+        margin:2px ;
+        position: relative;
+        left: 0px ;
+        }
+        form{
+            height: 55%;
+            width: 50%;
+            background-color: #343a40;
+            text-align: center;
+            position: absolute;
+            left: 25%;
+            border-radius: 5px;
+        }
+        .input_form {
+        display: inline-block;
+        width: 75%;
+        height: 15%;
+        margin:  2%;
+        background-color: red;
+        border: whitesmoke;
+        border-radius: 10px;
+        }
+        textarea {
+        text-align: center;
+        background-color: red;
+        border: whitesmoke;
+        border-radius: 5px;
+        width: 97%;
+        height: 36%;
+        margin: 0%;
+            padding: 0%;
+        }
+    
+        .mapa {
+            margin-bottom: 2%;
+        margin-top: 60%;
+        margin-left: 26%;
+        }
+        
+    }
+
+    @media screen and (max-width:480px) {
+        .motoprincipal{
+            margin: 5%;
+        }
+        body {
+            background-color:black;
+        }
+        .contenedor {
+            grid-template-columns: 1fr;
+            grid-template-rows:repeat(4, 1fr);
+            grid-template-areas: 
+            "caja1"
+            "caja2"
+            "caja3"
+            "caja4";
+            margin-bottom: 100%;
+        }
+        
+        .raider1{
+            width: 100%;
+        }
+        .raider2{
+            width: 100%;
+        }
+        .raider3{
+            width: 100%;
+        }
+        .raider4{
+            width: 100%;
+        }
+        
+        .harley1{
+            width: 100vh;
+        }
+        
+        /*formulario*/
+        p{
+            color: white;
+        }
+        .contactof {
+            width: 60%;
+            margin-top: 5%;
+            margin-left: 22%;
+        }
+        h1{
+            color: white;
+            margin-top: 5%;
+        }
+        H2 {
+            color: white;
+            text-align: center;
+            margin:2px ;
+            position: relative;
+            left: 0% ;
+            }
+            form{
+                height: 55%;
+                width: 60%;
+                background-color: #343a40;
+                text-align: center;
+                position: absolute;
+                left: 20%;
+                border-radius: 5px;
+                margin-top: 2%;
+            }
+            .input_form {
+            display: inline-block;
+            width: 75%;
+            height: 15%;
+            margin:  2%;
+            background-color: red;
+            border: whitesmoke;
+            border-radius: 10px;
+            }
+            textarea {
+            text-align: center;
+            background-color: red;
+            border: whitesmoke;
+            border-radius: 5px;
+            width: 97%;
+            height: 36%;
+            margin: 0%;
+                padding: 0%;
+            }
+        
+            .mapa {
+            margin-bottom: 2%;
+            margin-top: 115%;
+            margin-left: 20%;
+            }
+            
+            footer{
+                background-color: #343a40;
+                margin-top:5%;
+                padding: 0px;
+                width: 100%;
+                height: 50px;
+                bottom: 0px;
+                position: relative;
+            }
+            .p_footer{
+                color: white;
+                font-size: 20px;
+                text-align: center;
+            }
+        }
