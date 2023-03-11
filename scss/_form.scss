@@ -1,9 +1,9 @@
 H2 {
     color: white;
     text-align: center;
-    margin:2px ;
+    margin:5px ;
     position: relative;
-    left: -15px ;
+    left: 18% ;
     }
 form{
     height: 400px;
@@ -11,7 +11,7 @@ form{
     background-color:white;
     text-align: center;
     position: relative;
-    left: 35%;
+    left: 55%;
     border-radius: 5px;
     .input_form {
         display: inline-block;
@@ -33,5 +33,14 @@ form{
             margin: 0%;
                 padding: 0%;
             }
+        
+    }
+    .mapa {
+        margin-bottom: 5%;
+        margin-top: -30%;
+        margin-left: 10%;
+        }
+    .soli{
+        text-align: center;
         
     }

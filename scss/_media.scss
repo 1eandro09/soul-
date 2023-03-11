@@ -1,17 +1,19 @@
 @import "variables";
 
 @media screen and (max-width:768px){
+
     .motoprincipal{
         margin: 10%;
     }
     body{
         background-color: whitesmoke;
-    }
-    h1{
-        color: black;
-    }
-    p{
-        color: black;
+    
+        h1{
+            color: black;
+        }
+        p{
+            color: black;
+        }
     }
     
     .contenedor {
@@ -77,8 +79,8 @@
     
         .mapa {
             margin-bottom: 2%;
-        margin-top: 60%;
-        margin-left: 26%;
+        margin-top: 80%;
+        margin-left: 20%;
         }
         
     }
@@ -172,7 +174,7 @@
             .mapa {
             margin-bottom: 0%;
             margin-top: 100%;
-            margin-left: 24%;
+            margin-left: 20%;
             }
             
             footer{
