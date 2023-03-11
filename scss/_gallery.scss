@@ -1,3 +1,4 @@
+@import "variables";
 .contenedor {
     border: 2px solid white;
     height: 100vh;
@@ -10,7 +11,7 @@
     "caja2 caja3 caja4 caja4"
     ;
     .caja {
-        border: 1px solid #212529;
+        border: 1px solid $color-principal;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -45,7 +46,7 @@
 }
 
 .caja {
-    border: 1px solid #212529;
+    border: 1px solid $color-principal;
     display: flex;
     justify-content: center;
     align-items: center;

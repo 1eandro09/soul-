@@ -1,3 +1,4 @@
+@import "variables";
 
 *{
 margin: 0;
@@ -6,16 +7,18 @@ box-sizing: border-box;
 }
 
 body {
-background-color: black;
+background-color: $bg-negro;
 font-family: 'Minerve', cursive;
 
 p {
 color: white;
 font-size: 15px;
+}
+
 h1 {
-color: white;
-}
-}
+    color: white;
+    }
+    
 .motoprincipal {
 width: 100%;
 height: 100%;
