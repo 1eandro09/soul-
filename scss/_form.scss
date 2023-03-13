@@ -1,5 +1,7 @@
+@import "variables";
+
 H2 {
-    color: white;
+    color: $p-white;
     text-align: center;
     margin:5px ;
     position: relative;
@@ -8,7 +10,7 @@ H2 {
 form{
     height: 400px;
     width: 360px;
-    background-color:white;
+    background-color: $p-white;
     text-align: center;
     position: relative;
     left: 55%;
@@ -19,14 +21,14 @@ form{
         height: 15%;
         margin:  2%;
         background-color: red;
-        border: whitesmoke;
+        border: $p-white;
         border-radius: 10px;
         }
         
         textarea {
             text-align: center;
             background-color: red;
-            border: whitesmoke;
+            border: $p-white;
             border-radius: 5px;
             width: 97%;
             height: 36%;

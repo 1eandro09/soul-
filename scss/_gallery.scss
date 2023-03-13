@@ -1,6 +1,6 @@
 @import "variables";
 .contenedor {
-    border: 2px solid white;
+    border: 2px solid $p-white;
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
