@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixins";
 
 H2 {
     color: $p-white;
@@ -7,36 +8,20 @@ H2 {
     position: relative;
     left: 18% ;
     }
+
 form{
-    height: 400px;
-    width: 360px;
-    background-color: $p-white;
-    text-align: center;
-    position: relative;
-    left: 55%;
-    border-radius: 5px;
+    @include formulario;
+
     .input_form {
-        display: inline-block;
-        width: 75%;
-        height: 15%;
-        margin:  2%;
-        background-color: red;
-        border: $p-white;
-        border-radius: 10px;
+        @include input;
         }
         
         textarea {
-            text-align: center;
-            background-color: red;
-            border: $p-white;
-            border-radius: 5px;
-            width: 97%;
-            height: 36%;
-            margin: 0%;
-                padding: 0%;
+            @include textarea;
             }
         
     }
+    
     .mapa {
         margin-bottom: 5%;
         margin-top: -30%;
