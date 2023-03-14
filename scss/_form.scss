@@ -8,6 +8,7 @@ H2 {
     position: relative;
     left: 18% ;
     }
+    
 
 form{
     @include formulario;
@@ -21,7 +22,7 @@ form{
             }
         
     }
-    
+
     .mapa {
         margin-bottom: 5%;
         margin-top: -30%;
