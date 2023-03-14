@@ -1,3 +1,4 @@
+@import "variables";
 
 .mh1{
 text-align: center;
@@ -8,3 +9,32 @@ padding-bottom: 2%;
 width: 90%;
 padding-left: 7%;
 }
+.motosp{
+    text-align: center;
+    .mp{
+        font-size: 2rem;
+    }
+}
+.imgm{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    padding-left: 20%;
+}
+.pmotos{
+    color: $p-white;
+    text-align: center;
+    width: 60%;
+    padding-left: 11%;
+    margin-left: 11%;
+    
+}
+.txbobb{
+    text-align: center;
+    font-size: 2rem;
+    color: $p-white ;
+    padding-left: 0%;
+    margin-left: -8%;
+    }

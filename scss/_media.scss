@@ -82,6 +82,39 @@
         margin-top: 80%;
         margin-left: 20%;
         }
+
+        .mcentral{
+            width: 90%;
+            padding-left: 7%;
+            }
+            .motosp{
+                text-align: center;
+                .mp{
+                    font-size: 2rem;
+                }
+            }
+            .imgm{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin: 2%;
+                padding-left: 0%;
+            }
+            .pmotos{
+                color: $bg-negro;
+                text-align: center;
+                width: 80%;
+                padding-left: 0%;
+                margin-left: 10%;
+                
+            }
+            .txbobb{
+                text-align: center;
+                font-size: 2rem;
+                color: $bg-negro ;
+                padding-left: 0%;
+                margin-left: 0%;
+                }
         footer{
             background-color:$color-principal;
             padding: 0%;
@@ -166,6 +199,39 @@
         .harley1{
             width: 100vh;
         }
+        .mcentral{
+            width: 90%;
+            padding-left: 7%;
+            }
+            .motosp{
+                text-align: center;
+                .mp{
+                    font-size: 2rem;
+                }
+            }
+            .imgm{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin: -2%;
+                padding-left: 5%;
+            }
+            .pmotos{
+                color: $p-white;
+                text-align: center;
+                width: 80%;
+                padding-left: 0%;
+                margin-left: 10%;
+                
+            }
+            .txbobb{
+                text-align: center;
+                font-size: 1.5rem;
+                color: $p-white ;
+                padding-left: 0%;
+                margin-left: 0%;
+                padding-top: 5%;
+                }
         
         /*formulario*/
         
@@ -225,6 +291,7 @@
             }
             .placeholder-glow{
                 color: $colormotors;
+                margin-bottom: -10%;
             }
             
             footer{
