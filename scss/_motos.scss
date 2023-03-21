@@ -7,12 +7,13 @@ padding-bottom: 2%;
 }
 .mcentral{
 width: 90%;
-padding-left: 7%;
+margin-left: 5%;
 }
 .motosp{
     text-align: center;
     .mp{
         font-size: 2rem;
+        padding-left: 5%;
     }
 }
 .imgm{
@@ -20,21 +21,19 @@ padding-left: 7%;
     width: 70%;
     display: flex;
     justify-content: center;
-    margin: 2%;
-    padding-left: 20%;
+    margin-left: 15%;
 }
 .pmotos{
     color: $p-white;
     text-align: center;
-    width: 60%;
-    padding-left: 11%;
-    margin-left: 11%;
+    width: 85%;
+    padding-left: 15%;
+    margin-left: 0%;
     
 }
 .txbobb{
     text-align: center;
     font-size: 2rem;
     color: $p-white ;
-    padding-left: 0%;
-    margin-left: -8%;
+    margin-left: 0%;
     }
