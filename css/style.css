@@ -487,15 +487,20 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: "caja1" "caja2" "caja3" "caja4";
-    margin-bottom: 100%; }
+    margin-bottom: 120%; }
   .raider1 {
-    width: 100%; }
+    width: 96%;
+    margin: 1%; }
   .raider2 {
-    width: 100%; }
+    width: 100%;
+    margin: 1%; }
   .raider3 {
-    width: 100%; }
+    width: 100%;
+    height: 100%;
+    padding: 0%; }
   .raider4 {
-    width: 100%; }
+    width: 96%;
+    margin: 1%; }
   .harley1 {
     width: 100vh; }
   .mcentral {
