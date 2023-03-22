@@ -221,6 +221,15 @@
             .p-index{
             color: $p-white;
             }
+            .soulp{
+                text-align: center;
+                margin-top: 2%;
+                margin-bottom: -12%;
+                margin-right: 15%;
+                font-family: 'Monoton', cursive;
+                font-size: 60px;
+                color: $p-white;
+            }    
         }
         .contenedorp{
             margin-top: 8%;
@@ -384,8 +393,10 @@
             margin-top: 100%;
             margin-left: 20%;
             }
-            .placeholder-glow{
-                color: $colormotors;
+            .youtube{
+                width: 90%;
+                margin-left: 7%;
+                margin-top: 2%;
                 margin-bottom: -10%;
             }
             
