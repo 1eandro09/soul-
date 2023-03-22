@@ -48,10 +48,12 @@ body {
   margin-left: 5%; }
 
 .motosp {
+  color: whitesmoke;
   text-align: center; }
   .motosp .mp {
+    color: whitesmoke;
     font-size: 2rem;
-    padding-left: 5%; }
+    padding-left: 8%; }
 
 .imgm {
   height: 70%;
@@ -431,12 +433,16 @@ footer {
     body h1 {
       color: whitesmoke; }
     body .p-index {
-      color: whitesmoke; }
+      color: whitesmoke;
+      width: 100%;
+      margin-left: -4%;
+      margin-bottom: -10%; }
     body .soulp {
       text-align: center;
-      margin-top: 2%;
-      margin-bottom: -12%;
-      margin-right: 15%;
+      width: 100%;
+      margin-left: -3%;
+      margin-top: 0%;
+      margin-bottom: -5%;
       font-family: 'Monoton', cursive;
       font-size: 60px;
       color: whitesmoke; }
@@ -470,7 +476,8 @@ footer {
     display: flex;
     justify-content: center;
     width: 98%;
-    margin: 1%; }
+    margin: 1%;
+    margin-top: 5%; }
   .ryou {
     width: 80%;
     margin-bottom: -13%;
@@ -492,12 +499,26 @@ footer {
   .harley1 {
     width: 100vh; }
   .mcentral {
+    width: 100%;
+    padding-left: -3%; }
+  .motosp {
+    color: whitesmoke;
+    text-align: center; }
+    .motosp .mp {
+      color: whitesmoke;
+      font-size: 2rem; }
+  .mh1 {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%; }
+  .mcentral {
     width: 90%;
-    padding-left: 7%; }
+    margin-left: 5%; }
   .motosp {
     text-align: center; }
     .motosp .mp {
-      font-size: 2rem; }
+      font-size: 2rem;
+      padding-left: 8%; }
   .imgm {
     width: 100%;
     display: flex;

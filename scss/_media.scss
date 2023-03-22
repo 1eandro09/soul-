@@ -220,12 +220,16 @@
             }
             .p-index{
             color: $p-white;
+            width: 100%;
+            margin-left: -4%;
+            margin-bottom: -10%;
             }
             .soulp{
                 text-align: center;
-                margin-top: 2%;
-                margin-bottom: -12%;
-                margin-right: 15%;
+                width: 100%;
+                margin-left: -3%;
+                margin-top: 0%;
+                margin-bottom: -5%;
                 font-family: 'Monoton', cursive;
                 font-size: 60px;
                 color: $p-white;
@@ -269,6 +273,7 @@
             justify-content: center;
             width: 98%;
             margin: 1%;
+            margin-top: 5%;
         }
         .ryou{
             width: 80%;
@@ -304,15 +309,33 @@
             width: 100vh;
         }
         .mcentral{
-            width: 90%;
-            padding-left: 7%;
+            width: 100%;
+            padding-left: -3%;
             }
             .motosp{
+                color: $p-white;
                 text-align: center;
                 .mp{
+                    color: $p-white;
                     font-size: 2rem;
                 }
             }
+            .mh1{
+                text-align: center;
+                padding-top: 2%;
+                padding-bottom: 2%;
+                }
+                .mcentral{
+                width: 90%;
+                margin-left: 5%;
+                }
+                .motosp{
+                    text-align: center;
+                    .mp{
+                        font-size: 2rem;
+                        padding-left: 8%;
+                    }
+                }
             .imgm{
                 width: 100%;
                 display: flex;
