@@ -185,8 +185,14 @@ body {
 .ryou {
   display: flex;
   justify-content: center;
-  margin-bottom: 2%;
-  margin-left: 30%; }
+  margin-bottom: 1%;
+  margin-top: 5%;
+  margin-left: 28%; }
+
+.tyou {
+  text-align: center;
+  width: 95%;
+  margin-right: 30%; }
 
 H2 {
   color: whitesmoke;
@@ -487,7 +493,7 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: "caja1" "caja2" "caja3" "caja4";
-    margin-bottom: 120%; }
+    margin-bottom: 100%; }
   .raider1 {
     width: 96%;
     margin: 1%; }
