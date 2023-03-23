@@ -489,6 +489,11 @@ footer {
     margin-bottom: -13%;
     margin-left: 10%;
     margin-top: 0%; }
+  .tyou {
+    text-align: center;
+    width: 95%;
+    margin-right: 30%;
+    color: whitesmoke; }
   .contenedor {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
