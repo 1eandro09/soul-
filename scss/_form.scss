@@ -1,6 +1,15 @@
 @import "variables";
 @import "mixins";
 
+
+.imgserv{
+    width: 95%;
+    padding: 1%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
 H2 {
     color: $p-white;
     text-align: center;
@@ -8,7 +17,6 @@ H2 {
     position: relative;
     left: 18% ;
     }
-
 
 form{
     @include formulario;

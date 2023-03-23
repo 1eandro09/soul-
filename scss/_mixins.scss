@@ -1,7 +1,7 @@
 @mixin formulario{
     height: 400px;
     width: 360px;
-    background-color: $p-white;
+    background-color: $color-principal;
     text-align: center;
     position: relative;
     left: 55%;
@@ -12,13 +12,13 @@
         width: 75%;
         height: 15%;
         margin:  2%;
-        background-color: red;
+        background-color: $p-white;
         border: $p-white;
         border-radius: 10px;
 }
 @mixin textarea {
     text-align: center;
-    background-color: red;
+    background-color: $p-white;
     border: $p-white;
     border-radius: 5px;
     width: 97%;
