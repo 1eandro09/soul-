@@ -493,7 +493,9 @@ footer {
     text-align: center;
     width: 95%;
     margin-right: 30%;
-    color: whitesmoke; }
+    color: whitesmoke;
+    margin-bottom: 0%;
+    margin-top: 175%; }
   .contenedor {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
