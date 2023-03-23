@@ -482,7 +482,7 @@ footer {
     width: 80%;
     margin-bottom: -13%;
     margin-left: 10%;
-    margin-top: 100%; }
+    margin-top: 0%; }
   .contenedor {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
