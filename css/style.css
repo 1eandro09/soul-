@@ -488,9 +488,10 @@ footer {
     margin-left: 0%;
     margin-top: 15%; }
   .ruta3 {
-    padding-right: 0%;
+    padding-right: 13%;
+    margin-left: 0%;
     margin-bottom: 17%;
-    width: 100%;
+    width: 106%;
     color: whitesmoke; }
   .rhuapi {
     display: flex;
@@ -617,7 +618,7 @@ footer {
     margin-bottom: 1%;
     margin-top: 123%;
     margin-left: 11%;
-    width: 80%; }
+    width: 77%; }
   .youtube {
     width: 90%;
     margin-left: 7%;
