@@ -515,10 +515,11 @@ footer {
     grid-template-columns: 2.5fr;
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: "caja1" "caja2" "caja3" "caja4";
+    padding: 1%;
     margin-bottom: -100%;
-    margin-left: 12%;
+    margin-left: 15%;
     margin-top: 10%;
-    width: 76%; }
+    width: 71%; }
   .raider1 {
     width: 96%;
     margin: 1%; }
