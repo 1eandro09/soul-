@@ -510,13 +510,15 @@ footer {
     margin-right: 30%;
     color: whitesmoke;
     margin-bottom: 0%;
-    margin-top: 160%; }
+    margin-top: 110%; }
   .contenedor {
-    grid-template-columns: 1fr;
+    grid-template-columns: 2.5fr;
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: "caja1" "caja2" "caja3" "caja4";
-    margin-bottom: -75%;
-    margin-top: 5%; }
+    margin-bottom: -100%;
+    margin-left: 12%;
+    margin-top: 10%;
+    width: 76%; }
   .raider1 {
     width: 96%;
     margin: 1%; }
